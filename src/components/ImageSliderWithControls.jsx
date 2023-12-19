@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 
-function ImageSliderWithControls() {
+export default function ImageSliderWithControls() {
   const slides = [
     {
       url: "https://images.unsplash.com/photo-1587387119725-9d6bac0f22fb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -65,4 +65,3 @@ function ImageSliderWithControls() {
   );
 }
 
-export default ImageSliderWithControls;
